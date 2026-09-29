@@ -1,0 +1,4 @@
+{
+  "_ayuda": "Ordenes del bot IA (Claude). Anade objetos a 'orders' con un id nuevo. action: buy | sell. token: simbolo (BONK, PEPE...). pct: % del efectivo (buy) o de la posicion (sell). Cada id se ejecuta una sola vez.",
+  "orders": []
+}
