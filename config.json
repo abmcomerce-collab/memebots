@@ -1,0 +1,21 @@
+{
+  "capital_inicial_eur": 10,
+  "comision_por_operacion": 0.01,
+  "umbral_muerte_eur": 5,
+  "dias_por_ronda": 14,
+  "eliminados_por_ronda": 2,
+  "tokens": {
+    "dogecoin": "DOGE",
+    "pepe": "PEPE",
+    "shiba-inu": "SHIB",
+    "bonk": "BONK",
+    "dogwifcoin": "WIF",
+    "based-brett": "BRETT",
+    "floki": "FLOKI",
+    "pudgy-penguins": "PENGU",
+    "fartcoin": "FARTCOIN",
+    "spx6900": "SPX",
+    "mog-coin": "MOG",
+    "popcat": "POPCAT"
+  }
+}
