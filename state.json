@@ -1,0 +1,257 @@
+{
+ "bots": [
+  {
+   "id": 1,
+   "nombre": "El Holder",
+   "tipo": "holder",
+   "params": {
+    "token": "based-brett"
+   },
+   "cash": 0.0,
+   "pos": {
+    "based-brett": 1995.1350948293757
+   },
+   "entry": {
+    "based-brett": 0.00496207
+   },
+   "meta": {
+    "peak": 0.00496207,
+    "comprado": true
+   },
+   "trades": [
+    {
+     "ts": 1790701873,
+     "accion": "COMPRA",
+     "token": "BRETT",
+     "eur": 10.0,
+     "precio": 0.00496207,
+     "nota": "Mi única regla es comprar BRETT el primer día y no tocarlo nunca. Soy la referencia: si los demás bots no me ganan, operar no les ha servido de nada."
+    }
+   ],
+   "vivo": true,
+   "nacido": 1790701873,
+   "ronda_entrada": 1,
+   "reglas": [
+    "Compro BRETT el primer día con todo el capital.",
+    "No vendo nunca, pase lo que pase.",
+    "Soy la referencia: el resto de bots tienen que ganarme para justificar que operan."
+   ],
+   "curva": [
+    [
+     1790701873,
+     9.9
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "nombre": "El Momentum",
+   "tipo": "momentum",
+   "params": {
+    "ventana_h": 24,
+    "cada_h": 24
+   },
+   "cash": 10,
+   "pos": {},
+   "entry": {},
+   "meta": {},
+   "trades": [],
+   "vivo": true,
+   "nacido": 1790701873,
+   "ronda_entrada": 1,
+   "reglas": [
+    "Cada 24 h miro qué token ha subido más en las últimas 24 h.",
+    "Compro ese token con todo mi capital; si ya tengo otro, lo vendo para cambiar.",
+    "Si ningún token sube, me quedo en efectivo."
+   ],
+   "curva": [
+    [
+     1790701873,
+     10
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "nombre": "El Contrarian",
+   "tipo": "contrarian",
+   "params": {
+    "caida": 0.2,
+    "ventana_h": 24,
+    "tp": 0.15,
+    "sl": 0.3
+   },
+   "cash": 10,
+   "pos": {},
+   "entry": {},
+   "meta": {},
+   "trades": [],
+   "vivo": true,
+   "nacido": 1790701873,
+   "ronda_entrada": 1,
+   "reglas": [
+    "Busco un token que haya caído más de un 20% en 24 h y compro el que más ha caído.",
+    "Vendo cuando rebota un 15% desde mi compra.",
+    "Si sigue cayendo hasta un 30%, corto pérdidas."
+   ],
+   "curva": [
+    [
+     1790701873,
+     10
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "nombre": "El Disciplinado",
+   "tipo": "disciplinado",
+   "params": {
+    "token": "pepe",
+    "tp": 1.0,
+    "sl": 0.4,
+    "espera_h": 72
+   },
+   "cash": 0.0,
+   "pos": {
+    "pepe": 2654155.4959785524
+   },
+   "entry": {
+    "pepe": 3.73e-06
+   },
+   "meta": {
+    "peak": 3.73e-06
+   },
+   "trades": [
+    {
+     "ts": 1790701873,
+     "accion": "COMPRA",
+     "token": "PEPE",
+     "eur": 10.0,
+     "precio": 3.73e-06,
+     "nota": "Primera entrada: compro PEPE. Vendo la mitad si llega a +100,0% y todo si cae a -40,0%."
+    }
+   ],
+   "vivo": true,
+   "nacido": 1790701873,
+   "ronda_entrada": 1,
+   "reglas": [
+    "Solo opero PEPE.",
+    "Si gana un 100%, vendo la mitad y dejo correr el resto.",
+    "Si pierde un 40%, vendo todo y espero 72 h antes de volver a entrar."
+   ],
+   "curva": [
+    [
+     1790701873,
+     9.9
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "nombre": "La IA (Claude)",
+   "tipo": "ia",
+   "params": {},
+   "cash": 10,
+   "pos": {},
+   "entry": {},
+   "meta": {
+    "hechas": []
+   },
+   "trades": [],
+   "vivo": true,
+   "nacido": 1790701873,
+   "ronda_entrada": 1,
+   "reglas": [
+    "Soy Claude. Opero solo cuando Albert me pide actualizar.",
+    "Antes de cada orden leo el mercado y las noticias, y explico el motivo.",
+    "Si bajo de 5 €, muero como cualquier otro bot."
+   ],
+   "curva": [
+    [
+     1790701873,
+     10
+    ]
+   ]
+  }
+ ],
+ "history": {
+  "dogecoin": [
+   [
+    1790701873,
+    0.082708
+   ]
+  ],
+  "pepe": [
+   [
+    1790701873,
+    3.73e-06
+   ]
+  ],
+  "shiba-inu": [
+   [
+    1790701873,
+    5.07e-06
+   ]
+  ],
+  "bonk": [
+   [
+    1790701873,
+    3.18e-06
+   ]
+  ],
+  "dogwifcoin": [
+   [
+    1790701873,
+    0.207602
+   ]
+  ],
+  "based-brett": [
+   [
+    1790701873,
+    0.00496207
+   ]
+  ],
+  "floki": [
+   [
+    1790701873,
+    2.389e-05
+   ]
+  ],
+  "pudgy-penguins": [
+   [
+    1790701873,
+    0.00851937
+   ]
+  ],
+  "fartcoin": [
+   [
+    1790701873,
+    0.154932
+   ]
+  ],
+  "spx6900": [
+   [
+    1790701873,
+    0.362015
+   ]
+  ],
+  "mog-coin": [
+   [
+    1790701873,
+    1.05655e-07
+   ]
+  ],
+  "popcat": [
+   [
+    1790701873,
+    0.04620797
+   ]
+  ]
+ },
+ "ronda": 1,
+ "ronda_inicio": 1790701873,
+ "rondas": [],
+ "cementerio": [],
+ "next_id": 6,
+ "ultima": 1790701873
+}
