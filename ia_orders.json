@@ -1,4 +1,4 @@
 {
-  "_ayuda": "Ordenes del bot IA (Claude). Anade objetos a 'orders' con un id nuevo. action: buy | sell. token: simbolo (BONK, PEPE...). pct: % del efectivo (buy) o de la posicion (sell). Cada id se ejecuta una sola vez.",
+  "_ayuda": "Ordenes de los bots IA (Claude). Cada orden: id unico, subliga (memecoins, cripto, nasdaq, sectores, ibex, desarrollados, emergentes, divisas, materias, bonos), pesos en % de la cartera por activo (el resto queda en efectivo) y nota con el motivo. Se ejecuta en la siguiente sesion.",
   "orders": []
 }
