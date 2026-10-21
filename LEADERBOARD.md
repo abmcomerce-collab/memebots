@@ -1,126 +1,126 @@
 # Liga de 100 bots — Ronda 2
 
-Actualizado: 2026-10-20 · Inicio: 2026-09-29
+Actualizado: 2026-10-21 · Inicio: 2026-09-29
 
 ## Subligas (rentabilidad desde el inicio)
 
 | Subliga | Benchmark | Aleatorio | Exceso medio estrategias | Baten al benchmark | Baten al aleatorio |
 |---|---|---|---|---|---|
-| Memecoins | -16,0% | -7,8% | +3,0% | 4/8 | 2/8 |
-| Materias primas | +0,3% | -1,3% | +2,1% | 5/8 | 7/8 |
-| IBEX 35 | -0,9% | +0,9% | +0,1% | 4/8 | 1/8 |
-| Cripto grandes | -10,6% | -13,8% | +0,1% | 3/8 | 5/8 |
-| Divisas | -0,3% | -0,1% | -0,2% | 2/8 | 1/8 |
-| Índices desarrollados | -0,9% | +0,1% | -0,8% | 2/8 | 0/8 |
-| Bonos | +0,9% | +1,0% | -0,9% | 0/8 | 0/8 |
-| Sectores USA | +2,9% | +2,5% | -3,4% | 2/8 | 3/8 |
-| Emergentes | -3,5% | +0,0% | -3,6% | 2/8 | 0/8 |
-| Nasdaq (20 grandes) | -0,5% | -0,8% | -4,6% | 2/8 | 2/8 |
+| Materias primas | -0,1% | -2,4% | +2,3% | 6/8 | 7/8 |
+| Memecoins | -11,1% | -2,6% | +1,0% | 3/8 | 2/8 |
+| IBEX 35 | -1,9% | -0,4% | -0,1% | 4/8 | 2/8 |
+| Divisas | -0,3% | -0,1% | -0,3% | 2/8 | 1/8 |
+| Cripto grandes | -8,1% | -11,9% | -0,3% | 3/8 | 6/8 |
+| Bonos | +0,6% | +0,9% | -0,6% | 0/8 | 0/8 |
+| Índices desarrollados | -1,2% | +0,4% | -0,7% | 2/8 | 0/8 |
+| Emergentes | -3,6% | +0,0% | -2,4% | 3/8 | 0/8 |
+| Sectores USA | +2,5% | +2,4% | -2,8% | 2/8 | 2/8 |
+| Nasdaq (20 grandes) | +0,3% | -0,8% | -4,6% | 1/8 | 2/8 |
 
 ## Ranking general (exceso sobre el benchmark de su subliga)
 
 | # | Bot | Subliga | Rent. | Exceso | Sharpe | Caída máx. | Estado |
 |---|---|---|---|---|---|---|---|
-| 1 | IA (Claude) | Memecoins | +0,0% | +16,0% | — | +0,0% | vivo |
-| 2 | Dual 252d | Memecoins | +0,0% | +16,0% | — | +0,0% | vivo |
-| 3 | Dual 252d | Materias primas | +14,4% | +14,1% | 8.63 | -2,6% | vivo |
-| 4 | IA (Claude) | Cripto grandes | +0,0% | +10,6% | — | +0,0% | vivo |
-| 5 | Aleatorio | Memecoins | -7,8% | +8,2% | -5.95 | -7,8% | vivo |
-| 6 | Bollinger 2.0σ | Cripto grandes | -2,8% | +7,8% | -2.79 | -5,5% | vivo |
-| 7 | Donchian 55/20 | Materias primas | +5,5% | +5,2% | 6.14 | -0,4% | vivo |
-| 8 | RSI2 <10 | IBEX 35 | +3,8% | +4,7% | 3.39 | -3,7% | vivo |
-| 9 | Bollinger 2.0σ | Nasdaq (20 grandes) | +3,4% | +3,9% | 3.51 | -2,6% | vivo |
-| 10 | RSI2 <10 | Cripto grandes | -6,9% | +3,7% | -2.80 | -12,8% | vivo |
-| 11 | Aleatorio | Emergentes | +0,0% | +3,5% | — | +0,0% | vivo |
-| 12 | IA (Claude) | Emergentes | +0,0% | +3,5% | — | +0,0% | vivo |
-| 13 | Tendencia 252d | Memecoins | -12,6% | +3,5% | -10.57 | -13,1% | vivo |
-| 14 | Aleatorio | IBEX 35 | +0,9% | +1,8% | 1.27 | -2,4% | vivo |
-| 15 | Cruce 50/200 | Materias primas | +2,1% | +1,8% | 3.97 | -0,9% | vivo |
-| 16 | Media 200d | Materias primas | +1,7% | +1,4% | 3.28 | -0,9% | vivo |
-| 17 | Aleatorio | Índices desarrollados | +0,1% | +1,0% | 0.21 | -2,1% | vivo |
-| 18 | IA (Claude) | IBEX 35 | +0,0% | +0,9% | — | +0,0% | vivo |
-| 19 | Dual 252d | IBEX 35 | +0,0% | +0,9% | 0.19 | -8,5% | vivo |
-| 20 | IA (Claude) | Índices desarrollados | +0,0% | +0,9% | — | +0,0% | vivo |
-| 21 | Media 200d | Sectores USA | +3,7% | +0,8% | 13.63 | -0,5% | vivo |
-| 22 | IA (Claude) | Nasdaq (20 grandes) | +0,0% | +0,5% | — | +0,0% | vivo |
-| 23 | Bollinger 2.0σ | Sectores USA | +3,3% | +0,5% | 6.37 | -0,4% | vivo |
-| 24 | IA (Claude) | Divisas | +0,0% | +0,3% | — | +0,0% | vivo |
-| 25 | Cruce 50/200 | IBEX 35 | -0,5% | +0,3% | -0.71 | -2,9% | vivo |
-| 26 | RSI2 <10 | Memecoins | -15,7% | +0,3% | -5.25 | -20,4% | vivo |
-| 27 | Aleatorio | Divisas | -0,1% | +0,2% | -0.81 | -0,4% | vivo |
-| 28 | Tendencia 252d | Emergentes | -3,3% | +0,2% | -3.04 | -5,9% | vivo |
-| 29 | Aleatorio | Bonos | +1,0% | +0,1% | 5.00 | -0,3% | vivo |
-| 30 | RSI2 <10 | Divisas | -0,3% | +0,1% | -2.19 | -0,5% | vivo |
-| 31 | Media 200d | Índices desarrollados | -0,8% | +0,1% | -1.42 | -1,9% | vivo |
-| 32 | RSI2 <10 | Materias primas | +0,4% | +0,0% | 0.56 | -1,8% | vivo |
-| 33 | Benchmark | Memecoins | -16,0% | +0,0% | -5.82 | -19,6% | vivo |
-| 34 | Benchmark | Cripto grandes | -10,6% | +0,0% | -5.09 | -12,8% | vivo |
-| 35 | Media 200d | Cripto grandes | -10,6% | +0,0% | -5.09 | -12,8% | vivo |
-| 36 | Benchmark | Nasdaq (20 grandes) | -0,5% | +0,0% | -0.76 | -3,5% | vivo |
-| 37 | Benchmark | Sectores USA | +2,9% | +0,0% | 7.28 | -0,7% | vivo |
-| 38 | Benchmark | IBEX 35 | -0,9% | +0,0% | -1.16 | -3,1% | vivo |
-| 39 | Benchmark | Índices desarrollados | -0,9% | +0,0% | -1.43 | -1,5% | vivo |
-| 40 | Cruce 50/200 | Índices desarrollados | -0,9% | +0,0% | -1.43 | -1,5% | vivo |
-| 41 | Benchmark | Emergentes | -3,5% | +0,0% | -3.34 | -5,6% | vivo |
-| 42 | Benchmark | Divisas | -0,3% | +0,0% | -2.43 | -0,5% | vivo |
-| 43 | Benchmark | Materias primas | +0,3% | +0,0% | 0.59 | -1,5% | vivo |
-| 44 | Benchmark | Bonos | +0,9% | +0,0% | 5.13 | -0,4% | vivo |
-| 45 | Tendencia 252d | Divisas | -0,4% | -0,0% | -2.83 | -0,6% | vivo |
-| 46 | Tendencia 252d | IBEX 35 | -0,9% | -0,1% | -1.13 | -2,9% | vivo |
-| 47 | Tendencia 252d | Índices desarrollados | -1,0% | -0,1% | -1.69 | -1,6% | vivo |
-| 48 | Tendencia 252d | Sectores USA | +2,7% | -0,2% | 6.55 | -0,8% | vivo |
-| 49 | Cruce 50/200 | Divisas | -0,6% | -0,2% | -2.84 | -0,8% | vivo |
-| 50 | Donchian 55/20 | Emergentes | -3,7% | -0,3% | -4.23 | -5,5% | vivo |
-| 51 | Momentum 126d top3 | Divisas | -0,6% | -0,3% | -3.03 | -0,8% | vivo |
-| 52 | Aleatorio | Nasdaq (20 grandes) | -0,8% | -0,3% | -3.85 | -0,9% | vivo |
-| 53 | IA (Claude) | Materias primas | +0,0% | -0,3% | — | +0,0% | vivo |
-| 54 | Cruce 50/200 | Cripto grandes | -10,9% | -0,4% | -5.51 | -13,7% | vivo |
-| 55 | Aleatorio | Sectores USA | +2,5% | -0,4% | 4.83 | -0,9% | vivo |
-| 56 | Bollinger 2.0σ | Bonos | +0,5% | -0,4% | 2.45 | -0,5% | vivo |
-| 57 | Media 200d | Divisas | -0,8% | -0,5% | -3.30 | -1,1% | vivo |
-| 58 | Donchian 55/20 | Divisas | -0,9% | -0,5% | -3.35 | -1,2% | vivo |
-| 59 | Media 200d | Bonos | +0,3% | -0,6% | 7.52 | -0,1% | vivo |
-| 60 | Bollinger 2.0σ | Divisas | -1,0% | -0,6% | -4.84 | -1,2% | vivo |
-| 61 | Dual 252d | Bonos | +0,2% | -0,7% | 4.35 | -0,2% | vivo |
-| 62 | Tendencia 252d | Materias primas | -0,4% | -0,7% | -0.58 | -2,1% | vivo |
-| 63 | Media 200d | Emergentes | -4,3% | -0,8% | -2.77 | -10,1% | vivo |
-| 64 | IA (Claude) | Bonos | +0,0% | -0,9% | — | +0,0% | vivo |
-| 65 | Donchian 55/20 | Bonos | +0,0% | -0,9% | — | +0,0% | vivo |
-| 66 | Media 200d | IBEX 35 | -1,8% | -0,9% | -2.04 | -4,2% | vivo |
-| 67 | Momentum 126d top3 | Bonos | -0,0% | -1,0% | -0.23 | -0,7% | vivo |
-| 68 | RSI2 <10 | Bonos | -0,1% | -1,0% | -6.13 | -0,1% | vivo |
-| 69 | Momentum 126d top3 | Índices desarrollados | -1,9% | -1,0% | -2.86 | -4,4% | vivo |
-| 70 | Bollinger 2.0σ | Índices desarrollados | -2,0% | -1,1% | -2.52 | -3,2% | vivo |
-| 71 | Cruce 50/200 | Bonos | -0,5% | -1,4% | -3.61 | -0,7% | vivo |
-| 72 | Cruce 50/200 | Memecoins | -17,5% | -1,5% | -6.13 | -20,5% | vivo |
-| 73 | Aleatorio | Materias primas | -1,3% | -1,6% | -5.67 | -1,6% | vivo |
-| 74 | Bollinger 2.0σ | IBEX 35 | -2,7% | -1,8% | -2.02 | -5,4% | vivo |
-| 75 | Bollinger 2.0σ | Memecoins | -18,0% | -2,0% | -4.89 | -24,8% | vivo |
-| 76 | Dual 252d | Índices desarrollados | -3,0% | -2,1% | -3.59 | -3,7% | vivo |
-| 77 | Cruce 50/200 | Nasdaq (20 grandes) | -2,7% | -2,2% | -2.55 | -6,7% | vivo |
-| 78 | Tendencia 252d | Nasdaq (20 grandes) | -2,9% | -2,3% | -2.72 | -6,7% | vivo |
-| 79 | Cruce 50/200 | Emergentes | -5,8% | -2,3% | -4.06 | -10,4% | vivo |
-| 80 | Media 200d | Memecoins | -18,6% | -2,6% | -5.88 | -24,3% | vivo |
-| 81 | Momentum 126d top3 | Sectores USA | +0,2% | -2,7% | 0.48 | -1,0% | vivo |
-| 82 | Donchian 55/20 | Nasdaq (20 grandes) | -3,2% | -2,7% | -3.51 | -6,3% | vivo |
-| 83 | IA (Claude) | Sectores USA | +0,0% | -2,9% | — | +0,0% | vivo |
-| 84 | Momentum 126d top3 | IBEX 35 | -3,9% | -3,0% | -3.07 | -6,3% | vivo |
-| 85 | Donchian 55/20 | Índices desarrollados | -4,1% | -3,2% | -6.85 | -4,8% | vivo |
-| 86 | Aleatorio | Cripto grandes | -13,8% | -3,2% | -7.51 | -13,8% | vivo |
-| 87 | Momentum 126d top3 | Cripto grandes | -14,2% | -3,7% | -7.70 | -16,1% | vivo |
-| 88 | Bollinger 2.0σ | Materias primas | -4,0% | -4,3% | -4.33 | -5,3% | vivo |
-| 89 | Donchian 55/20 | Sectores USA | -2,5% | -5,4% | -3.41 | -4,5% | vivo |
-| 90 | RSI2 <10 | Emergentes | -9,2% | -5,7% | -8.89 | -11,0% | vivo |
-| 91 | Donchian 55/20 | Memecoins | -21,9% | -5,9% | -6.20 | -23,9% | vivo |
-| 92 | Momentum 126d top3 | Emergentes | -11,1% | -7,6% | -8.68 | -13,3% | vivo |
-| 93 | Dual 252d | Cripto grandes | -18,9% | -8,3% | -8.63 | -18,9% | vivo |
-| 94 | Dual 252d | Sectores USA | -5,7% | -8,6% | -4.91 | -9,2% | vivo |
-| 95 | Donchian 55/20 | Cripto grandes | -19,2% | -8,7% | -7.58 | -19,2% | vivo |
-| 96 | RSI2 <10 | Sectores USA | -6,1% | -9,0% | -6.17 | -6,9% | vivo |
-| 97 | RSI2 <10 | Nasdaq (20 grandes) | -11,1% | -10,5% | -10.62 | -11,6% | vivo |
-| 98 | Momentum 126d top3 | Nasdaq (20 grandes) | -11,7% | -11,1% | -7.43 | -16,1% | vivo |
-| 99 | Dual 252d | Nasdaq (20 grandes) | -13,0% | -12,4% | -5.54 | -18,6% | vivo |
-| 100 | Dual 252d | Emergentes | -19,6% | -16,1% | -11.20 | -21,6% | vivo |
+| 1 | Dual 252d | Materias primas | +14,2% | +14,4% | 8.16 | -2,6% | vivo |
+| 2 | IA (Claude) | Memecoins | +0,0% | +11,1% | — | +0,0% | vivo |
+| 3 | Dual 252d | Memecoins | +0,0% | +11,1% | — | +0,0% | vivo |
+| 4 | Aleatorio | Memecoins | -2,6% | +8,5% | -1.17 | -7,8% | vivo |
+| 5 | IA (Claude) | Cripto grandes | +0,0% | +8,1% | — | +0,0% | vivo |
+| 6 | Bollinger 2.0σ | Cripto grandes | -0,2% | +7,9% | -0.03 | -5,5% | vivo |
+| 7 | Donchian 55/20 | Materias primas | +5,4% | +5,5% | 5.77 | -0,4% | vivo |
+| 8 | Tendencia 252d | Memecoins | -5,6% | +5,5% | -2.23 | -13,1% | vivo |
+| 9 | RSI2 <10 | Cripto grandes | -3,8% | +4,2% | -1.31 | -12,8% | vivo |
+| 10 | Bollinger 2.0σ | Nasdaq (20 grandes) | +4,2% | +3,9% | 4.15 | -2,6% | vivo |
+| 11 | Aleatorio | Emergentes | +0,0% | +3,6% | — | +0,0% | vivo |
+| 12 | IA (Claude) | Emergentes | +0,0% | +3,6% | — | +0,0% | vivo |
+| 13 | RSI2 <10 | IBEX 35 | +1,4% | +3,3% | 1.13 | -3,7% | vivo |
+| 14 | Bollinger 2.0σ | Sectores USA | +4,7% | +2,2% | 7.82 | -0,4% | vivo |
+| 15 | IA (Claude) | IBEX 35 | +0,0% | +1,9% | — | +0,0% | vivo |
+| 16 | Cruce 50/200 | Materias primas | +1,7% | +1,8% | 3.04 | -0,9% | vivo |
+| 17 | Aleatorio | Índices desarrollados | +0,4% | +1,7% | 0.52 | -2,1% | vivo |
+| 18 | Aleatorio | IBEX 35 | -0,4% | +1,5% | -0.41 | -2,4% | vivo |
+| 19 | Media 200d | Materias primas | +1,3% | +1,4% | 2.35 | -0,9% | vivo |
+| 20 | Dual 252d | IBEX 35 | -0,6% | +1,2% | -0.07 | -8,5% | vivo |
+| 21 | IA (Claude) | Índices desarrollados | +0,0% | +1,2% | — | +0,0% | vivo |
+| 22 | Media 200d | Sectores USA | +3,5% | +0,9% | 11.52 | -0,5% | vivo |
+| 23 | Tendencia 252d | Emergentes | -2,9% | +0,8% | -2.55 | -5,9% | vivo |
+| 24 | Aleatorio | Bonos | +0,9% | +0,3% | 4.13 | -0,3% | vivo |
+| 25 | IA (Claude) | Divisas | +0,0% | +0,3% | — | +0,0% | vivo |
+| 26 | Media 200d | Índices desarrollados | -1,0% | +0,2% | -1.78 | -1,9% | vivo |
+| 27 | Aleatorio | Divisas | -0,1% | +0,2% | -0.79 | -0,4% | vivo |
+| 28 | Cruce 50/200 | IBEX 35 | -1,7% | +0,2% | -2.14 | -2,9% | vivo |
+| 29 | Donchian 55/20 | Emergentes | -3,5% | +0,1% | -3.79 | -5,5% | vivo |
+| 30 | IA (Claude) | Materias primas | +0,0% | +0,1% | — | +0,0% | vivo |
+| 31 | RSI2 <10 | Materias primas | -0,1% | +0,1% | -0.01 | -2,2% | vivo |
+| 32 | Tendencia 252d | Divisas | -0,3% | +0,0% | -1.88 | -0,6% | vivo |
+| 33 | Benchmark | Memecoins | -11,1% | +0,0% | -3.24 | -19,6% | vivo |
+| 34 | Benchmark | Cripto grandes | -8,1% | +0,0% | -3.46 | -12,8% | vivo |
+| 35 | Media 200d | Cripto grandes | -8,1% | +0,0% | -3.46 | -12,8% | vivo |
+| 36 | Benchmark | Nasdaq (20 grandes) | +0,3% | +0,0% | 0.50 | -3,5% | vivo |
+| 37 | Benchmark | Sectores USA | +2,5% | +0,0% | 5.95 | -0,7% | vivo |
+| 38 | Benchmark | IBEX 35 | -1,9% | +0,0% | -2.35 | -3,1% | vivo |
+| 39 | Benchmark | Índices desarrollados | -1,2% | +0,0% | -1.99 | -1,5% | vivo |
+| 40 | Benchmark | Emergentes | -3,6% | +0,0% | -3.37 | -5,8% | vivo |
+| 41 | Benchmark | Divisas | -0,3% | +0,0% | -1.81 | -0,5% | vivo |
+| 42 | Benchmark | Materias primas | -0,1% | +0,0% | -0.15 | -1,5% | vivo |
+| 43 | Benchmark | Bonos | +0,6% | +0,0% | 3.04 | -0,4% | vivo |
+| 44 | Cruce 50/200 | Índices desarrollados | -1,2% | -0,0% | -2.01 | -1,5% | vivo |
+| 45 | Tendencia 252d | Índices desarrollados | -1,3% | -0,0% | -2.08 | -1,6% | vivo |
+| 46 | Momentum 126d top3 | Índices desarrollados | -1,3% | -0,1% | -1.85 | -4,4% | vivo |
+| 47 | RSI2 <10 | Divisas | -0,4% | -0,1% | -2.86 | -0,6% | vivo |
+| 48 | Aleatorio | Sectores USA | +2,4% | -0,1% | 4.55 | -0,9% | vivo |
+| 49 | Bollinger 2.0σ | Bonos | +0,5% | -0,1% | 2.18 | -0,5% | vivo |
+| 50 | Media 200d | Emergentes | -3,8% | -0,2% | -2.32 | -10,1% | vivo |
+| 51 | Tendencia 252d | IBEX 35 | -2,1% | -0,2% | -2.36 | -2,9% | vivo |
+| 52 | Cruce 50/200 | Divisas | -0,5% | -0,2% | -2.14 | -0,8% | vivo |
+| 53 | Tendencia 252d | Sectores USA | +2,3% | -0,2% | 5.19 | -0,8% | vivo |
+| 54 | Momentum 126d top3 | Divisas | -0,5% | -0,2% | -2.32 | -0,8% | vivo |
+| 55 | IA (Claude) | Nasdaq (20 grandes) | +0,0% | -0,3% | — | +0,0% | vivo |
+| 56 | Media 200d | Bonos | +0,3% | -0,3% | 5.40 | -0,1% | vivo |
+| 57 | Cruce 50/200 | Cripto grandes | -8,4% | -0,4% | -3.76 | -13,7% | vivo |
+| 58 | Dual 252d | Bonos | +0,2% | -0,4% | 3.00 | -0,2% | vivo |
+| 59 | IA (Claude) | Bonos | +0,0% | -0,6% | — | +0,0% | vivo |
+| 60 | Donchian 55/20 | Bonos | +0,0% | -0,6% | — | +0,0% | vivo |
+| 61 | Bollinger 2.0σ | Divisas | -0,9% | -0,6% | -4.21 | -1,2% | vivo |
+| 62 | Tendencia 252d | Materias primas | -0,8% | -0,6% | -1.04 | -2,1% | vivo |
+| 63 | Media 200d | Divisas | -0,9% | -0,7% | -3.60 | -1,2% | vivo |
+| 64 | RSI2 <10 | Bonos | -0,1% | -0,7% | -5.89 | -0,1% | vivo |
+| 65 | Donchian 55/20 | Divisas | -1,0% | -0,7% | -3.72 | -1,3% | vivo |
+| 66 | Momentum 126d top3 | Bonos | -0,2% | -0,9% | -1.20 | -0,7% | vivo |
+| 67 | Cruce 50/200 | Emergentes | -4,5% | -0,9% | -2.85 | -10,4% | vivo |
+| 68 | Bollinger 2.0σ | Índices desarrollados | -2,2% | -1,0% | -2.75 | -3,2% | vivo |
+| 69 | Media 200d | IBEX 35 | -3,0% | -1,1% | -3.18 | -4,2% | vivo |
+| 70 | Aleatorio | Nasdaq (20 grandes) | -0,8% | -1,2% | -3.71 | -0,9% | vivo |
+| 71 | Cruce 50/200 | Bonos | -0,6% | -1,2% | -3.81 | -0,7% | vivo |
+| 72 | RSI2 <10 | Memecoins | -12,5% | -1,4% | -3.69 | -20,4% | vivo |
+| 73 | Cruce 50/200 | Memecoins | -12,8% | -1,7% | -3.67 | -20,5% | vivo |
+| 74 | Cruce 50/200 | Nasdaq (20 grandes) | -1,8% | -2,2% | -1.58 | -6,7% | vivo |
+| 75 | Tendencia 252d | Nasdaq (20 grandes) | -1,9% | -2,2% | -1.61 | -6,7% | vivo |
+| 76 | Aleatorio | Materias primas | -2,4% | -2,2% | -7.19 | -2,6% | vivo |
+| 77 | Bollinger 2.0σ | IBEX 35 | -4,2% | -2,3% | -3.03 | -5,5% | vivo |
+| 78 | Momentum 126d top3 | Sectores USA | +0,2% | -2,4% | 0.34 | -1,0% | vivo |
+| 79 | Donchian 55/20 | Índices desarrollados | -3,7% | -2,5% | -5.72 | -4,8% | vivo |
+| 80 | Donchian 55/20 | Nasdaq (20 grandes) | -2,2% | -2,5% | -2.13 | -6,3% | vivo |
+| 81 | IA (Claude) | Sectores USA | +0,0% | -2,5% | — | +0,0% | vivo |
+| 82 | Media 200d | Memecoins | -13,7% | -2,6% | -3.57 | -24,3% | vivo |
+| 83 | Bollinger 2.0σ | Memecoins | -14,1% | -3,0% | -3.32 | -24,8% | vivo |
+| 84 | Dual 252d | Índices desarrollados | -4,5% | -3,3% | -5.01 | -4,5% | vivo |
+| 85 | Momentum 126d top3 | Cripto grandes | -11,4% | -3,3% | -5.30 | -16,1% | vivo |
+| 86 | Momentum 126d top3 | IBEX 35 | -5,4% | -3,5% | -4.06 | -7,0% | vivo |
+| 87 | Aleatorio | Cripto grandes | -11,9% | -3,8% | -5.84 | -13,8% | vivo |
+| 88 | Bollinger 2.0σ | Materias primas | -4,3% | -4,2% | -4.51 | -5,3% | vivo |
+| 89 | RSI2 <10 | Emergentes | -7,9% | -4,2% | -6.59 | -11,0% | vivo |
+| 90 | Donchian 55/20 | Sectores USA | -3,1% | -5,7% | -4.01 | -5,1% | vivo |
+| 91 | Momentum 126d top3 | Emergentes | -9,5% | -5,8% | -6.41 | -13,3% | vivo |
+| 92 | Dual 252d | Sectores USA | -4,4% | -6,9% | -3.41 | -9,2% | vivo |
+| 93 | RSI2 <10 | Sectores USA | -4,8% | -7,4% | -4.35 | -6,9% | vivo |
+| 94 | Dual 252d | Cripto grandes | -15,8% | -7,8% | -6.21 | -18,9% | vivo |
+| 95 | RSI2 <10 | Nasdaq (20 grandes) | -10,1% | -10,4% | -8.62 | -11,6% | vivo |
+| 96 | Donchian 55/20 | Memecoins | -21,9% | -10,8% | -6.04 | -23,9% | vivo |
+| 97 | Donchian 55/20 | Cripto grandes | -19,2% | -11,2% | -7.37 | -19,2% | vivo |
+| 98 | Momentum 126d top3 | Nasdaq (20 grandes) | -11,0% | -11,3% | -6.51 | -16,1% | vivo |
+| 99 | Dual 252d | Nasdaq (20 grandes) | -11,4% | -11,8% | -4.50 | -18,6% | vivo |
+| 100 | Dual 252d | Emergentes | -16,3% | -12,7% | -7.22 | -21,6% | vivo |
 
 ## Mercado por subliga (para la IA)
 
@@ -128,163 +128,163 @@ Actualizado: 2026-10-20 · Inicio: 2026-09-29
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| DOGE | -0,2% | -3,6% | -18,4% | -9,4% |
-| PEPE | +3,8% | +1,5% | -5,1% | +21,5% |
-| SHIB | +0,2% | -1,8% | -15,7% | -5,0% |
-| BONK | -0,3% | -6,1% | -21,6% | -31,8% |
-| WIF | +0,2% | -2,0% | -18,7% | +7,7% |
-| BRETT | +1,1% | -7,2% | -24,1% | -20,3% |
-| FLOKI | +0,8% | -5,4% | -17,7% | -10,2% |
-| PENGU | +0,4% | -2,1% | -26,6% | -1,2% |
-| FARTCOIN | -1,1% | -9,4% | -27,1% | -13,4% |
-| SPX | -2,8% | -2,1% | -20,2% | -7,6% |
-| MOG | +0,6% | -1,1% | -18,4% | -15,5% |
-| POPCAT | +0,4% | -3,0% | -21,7% | -13,3% |
+| DOGE | +3,9% | +0,8% | -12,7% | -5,8% |
+| PEPE | +9,7% | +10,5% | +6,6% | +33,1% |
+| SHIB | +3,0% | +0,2% | -10,5% | -2,1% |
+| BONK | +5,1% | +0,0% | -14,9% | -28,1% |
+| WIF | +3,6% | +1,8% | -14,8% | +11,5% |
+| BRETT | +7,6% | +1,9% | -10,7% | -14,2% |
+| FLOKI | +4,9% | +0,2% | -10,1% | -5,8% |
+| PENGU | +6,1% | +4,8% | -19,4% | +4,8% |
+| FARTCOIN | +4,3% | -4,9% | -18,1% | -9,6% |
+| SPX | +7,7% | +9,7% | -8,2% | -0,6% |
+| MOG | +4,6% | +1,5% | -10,1% | -11,4% |
+| POPCAT | +9,0% | +2,8% | -9,9% | -5,5% |
 
 ### Cripto grandes (id: cripto) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| BTC | -0,6% | -0,1% | -3,5% | +12,5% |
-| ETH | -0,4% | -1,0% | -11,0% | +11,6% |
-| SOL | +0,6% | -0,2% | -14,4% | +19,5% |
-| BNB | +0,9% | -0,2% | -6,5% | +12,8% |
-| XRP | -0,8% | -3,0% | -14,9% | +0,9% |
-| ADA | -1,6% | -5,5% | -15,1% | +2,1% |
-| AVAX | -1,8% | -4,9% | -12,6% | +16,9% |
-| LINK | -0,7% | -3,8% | -14,9% | +21,8% |
-| DOT | +2,7% | +0,0% | -10,1% | +8,9% |
-| LTC | +0,5% | -0,3% | -16,7% | +14,6% |
+| BTC | +1,9% | +0,8% | -0,6% | +14,6% |
+| ETH | +2,5% | -0,0% | -8,4% | +14,4% |
+| SOL | +2,3% | +0,9% | -10,3% | +22,0% |
+| BNB | +2,1% | +1,9% | -2,0% | +15,0% |
+| XRP | +3,9% | +0,0% | -10,1% | +4,9% |
+| ADA | +3,7% | -2,6% | -8,3% | +6,0% |
+| AVAX | +2,5% | -2,8% | -14,5% | +19,8% |
+| LINK | +3,8% | -1,0% | -15,8% | +26,2% |
+| DOT | +1,8% | +0,9% | -2,5% | +10,9% |
+| LTC | +3,8% | +1,5% | -8,0% | +18,9% |
 
 ### Nasdaq (20 grandes) (id: nasdaq) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| AAPL | +0,4% | +2,0% | +2,2% | +17,6% |
-| MSFT | -1,9% | -1,1% | +7,1% | +21,9% |
-| NVDA | -1,4% | -6,6% | -3,7% | +5,7% |
-| AMZN | -1,9% | -4,7% | -1,5% | +3,0% |
-| GOOGL | -2,5% | -3,1% | -2,6% | +0,0% |
-| META | -3,7% | -1,3% | +6,6% | +12,4% |
-| TSLA | -2,1% | -7,3% | -2,6% | -8,6% |
-| AVGO | -4,5% | -9,1% | -7,9% | -10,4% |
-| COST | +1,1% | +4,5% | +10,5% | +2,6% |
-| NFLX | -2,9% | +0,3% | -1,8% | -14,9% |
-| AMD | -6,0% | -13,0% | -5,5% | +34,1% |
-| PEP | +2,4% | +4,4% | +1,3% | -8,6% |
-| ADBE | -2,6% | +1,2% | -1,5% | -3,5% |
-| CSCO | -2,2% | -9,3% | -1,6% | +8,6% |
-| TMUS | +1,3% | +7,1% | -5,4% | -15,2% |
-| QCOM | -3,5% | -1,9% | -3,2% | +2,4% |
-| INTU | -1,5% | +7,4% | +7,7% | -12,6% |
-| AMAT | -4,8% | -19,3% | -7,9% | -6,6% |
-| TXN | -0,9% | -2,6% | +3,7% | +9,4% |
-| ISRG | -0,3% | +0,6% | +8,5% | -2,9% |
+| AAPL | -0,2% | +0,6% | +1,2% | +17,2% |
+| MSFT | +0,8% | -1,4% | +6,4% | +22,8% |
+| NVDA | +1,4% | -4,1% | -4,5% | +7,0% |
+| AMZN | +5,0% | +1,1% | +1,5% | +8,1% |
+| GOOGL | +1,1% | -2,4% | -3,0% | +1,0% |
+| META | -0,5% | -5,1% | -4,8% | +11,7% |
+| TSLA | +3,8% | -2,6% | -1,9% | -5,0% |
+| AVGO | +1,8% | -5,7% | -7,7% | -8,8% |
+| COST | +0,6% | +3,8% | +10,8% | +3,2% |
+| NFLX | -1,0% | -1,1% | -4,8% | -15,6% |
+| AMD | +1,8% | -9,5% | -12,6% | +35,9% |
+| PEP | +1,6% | +5,4% | +3,1% | -7,1% |
+| ADBE | +0,8% | +3,8% | -1,0% | -2,6% |
+| CSCO | -0,8% | -7,7% | -4,1% | +7,6% |
+| TMUS | -1,9% | +2,8% | -5,6% | -16,7% |
+| QCOM | +0,8% | -0,5% | -10,7% | +3,2% |
+| INTU | +0,1% | +6,4% | +7,6% | -12,1% |
+| AMAT | +0,9% | -17,0% | -11,0% | -5,9% |
+| TXN | -0,1% | -2,0% | +1,9% | +9,0% |
+| ISRG | +1,5% | +1,3% | +7,9% | -1,3% |
 
 ### Sectores USA (id: sectores) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| Tecnología | -3,0% | -7,7% | -3,1% | +9,7% |
-| Financiero | +0,5% | +1,4% | -0,3% | +4,1% |
-| Energía | +2,5% | +4,9% | +6,7% | +19,7% |
-| Salud | -0,3% | +3,5% | +5,3% | +13,0% |
-| Consumo discr. | -0,8% | -0,3% | +1,5% | -2,6% |
-| Consumo básico | +1,1% | +5,0% | +6,5% | +5,5% |
-| Industria | -0,1% | -0,9% | -0,9% | -2,6% |
-| Materiales | +0,7% | +3,0% | +2,3% | +0,9% |
-| Utilities | +1,3% | +1,9% | +3,5% | -3,6% |
-| Inmobiliario | +0,4% | +1,3% | -0,0% | -1,1% |
-| Comunicaciones | -1,9% | -0,1% | -0,1% | -2,3% |
+| Tecnología | +1,4% | -5,3% | -4,6% | +11,1% |
+| Financiero | -0,8% | +0,0% | -1,5% | +3,2% |
+| Energía | -0,6% | +2,7% | +8,5% | +18,7% |
+| Salud | -0,6% | +2,1% | +3,9% | +12,2% |
+| Consumo discr. | +1,8% | +2,0% | +2,0% | -0,9% |
+| Consumo básico | -0,5% | +3,3% | +6,5% | +4,9% |
+| Industria | -0,6% | -1,5% | -1,9% | -3,2% |
+| Materiales | +0,1% | +3,1% | +2,5% | +0,9% |
+| Utilities | -2,0% | -0,6% | +1,7% | -5,5% |
+| Inmobiliario | -1,2% | -0,6% | -2,2% | -2,3% |
+| Comunicaciones | -0,2% | -1,2% | -4,1% | -2,5% |
 
 ### IBEX 35 (id: ibex) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| Santander | +0,3% | +0,1% | -3,9% | +7,5% |
-| BBVA | +0,8% | +1,9% | -4,5% | +11,1% |
-| Inditex | +0,8% | +3,7% | +8,0% | +3,3% |
-| Iberdrola | +0,7% | +2,0% | +6,9% | +9,5% |
-| Telefónica | +2,7% | +4,9% | -4,6% | -4,5% |
-| Repsol | +0,5% | +0,9% | +0,6% | +30,8% |
-| Amadeus | +1,3% | +4,0% | -1,1% | +3,7% |
-| CaixaBank | +0,1% | +0,6% | -8,3% | +3,6% |
-| Ferrovial | +2,3% | -0,9% | -7,4% | -20,8% |
-| ACS | +0,8% | -0,9% | -3,6% | -17,4% |
-| Aena | +0,0% | +3,3% | +1,3% | +1,2% |
-| Endesa | +0,6% | +1,1% | -0,0% | +15,3% |
+| Santander | -2,2% | -4,0% | -7,6% | +5,1% |
+| BBVA | -1,9% | -1,9% | -8,2% | +8,8% |
+| Inditex | -0,8% | +2,8% | +7,0% | +2,5% |
+| Iberdrola | -2,1% | -2,1% | +4,6% | +7,1% |
+| Telefónica | -1,1% | +4,8% | -5,7% | -5,6% |
+| Repsol | -0,6% | +1,4% | +1,3% | +29,5% |
+| Amadeus | -0,2% | +2,8% | -1,8% | +3,6% |
+| CaixaBank | -1,5% | -1,7% | -10,7% | +2,0% |
+| Ferrovial | -0,6% | -2,8% | -9,7% | -21,2% |
+| ACS | +0,3% | -2,1% | -5,1% | -17,1% |
+| Aena | -0,6% | +1,7% | -0,9% | +0,5% |
+| Endesa | -0,8% | -1,1% | -1,8% | +14,2% |
 
 ### Índices desarrollados (id: desarrollados) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| EE. UU. | -1,1% | -2,0% | +0,2% | +5,7% |
-| Nasdaq-100 | -2,5% | -5,5% | -1,5% | +5,4% |
-| Small caps EE. UU. | -1,7% | -3,0% | -4,8% | -2,2% |
-| Japón | -0,6% | -3,0% | -2,2% | +4,3% |
-| Alemania | +0,1% | +1,5% | -1,4% | -0,7% |
-| Reino Unido | +0,5% | +3,2% | +1,6% | +3,3% |
-| Francia | -0,3% | +1,4% | -3,6% | -5,6% |
-| España | -0,2% | +0,6% | -3,8% | +1,6% |
-| Canadá | +0,4% | +2,6% | +0,6% | +4,7% |
-| Australia | -0,3% | +0,4% | -0,1% | +0,7% |
+| EE. UU. | +0,4% | -1,5% | -0,9% | +6,1% |
+| Nasdaq-100 | +1,2% | -3,7% | -3,1% | +6,6% |
+| Small caps EE. UU. | +0,3% | -2,4% | -5,0% | -1,9% |
+| Japón | +0,1% | -2,4% | -3,0% | +4,4% |
+| Alemania | -1,3% | +0,2% | -3,7% | -1,9% |
+| Reino Unido | -1,4% | +1,4% | -0,7% | +1,9% |
+| Francia | -1,3% | +0,8% | -6,0% | -6,8% |
+| España | -1,6% | -1,2% | -6,7% | -0,0% |
+| Canadá | -0,5% | +1,4% | -0,2% | +4,2% |
+| Australia | +0,3% | +0,6% | -0,7% | +1,0% |
 
 ### Emergentes (id: emergentes) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| Emergentes global | -1,7% | -5,9% | -6,2% | -0,9% |
-| Brasil | +0,6% | -3,9% | +11,5% | +13,9% |
-| China | -1,2% | -1,2% | -1,4% | -5,6% |
-| India | -0,6% | +3,5% | -0,7% | -3,7% |
-| México | +1,4% | +4,2% | +2,2% | -0,5% |
-| Taiwán | -2,6% | -7,0% | -4,8% | +16,4% |
-| Corea | -3,7% | -15,1% | -17,0% | -6,1% |
-| Sudáfrica | +0,4% | +2,3% | -4,7% | -4,1% |
-| Turquía | -3,2% | -4,9% | -12,9% | -16,7% |
-| Indonesia | -14,9% | -16,4% | -20,3% | -30,2% |
+| Emergentes global | +0,7% | -4,3% | -8,0% | -0,2% |
+| Brasil | +0,2% | -3,7% | +10,1% | +14,0% |
+| China | -0,9% | -1,8% | -4,0% | -6,4% |
+| India | -0,5% | +2,2% | -2,3% | -4,2% |
+| México | +0,6% | +2,9% | +2,3% | +0,0% |
+| Taiwán | +0,9% | -6,1% | -7,2% | +17,2% |
+| Corea | +4,1% | -8,0% | -17,2% | -2,4% |
+| Sudáfrica | -1,0% | +1,3% | -5,3% | -5,0% |
+| Turquía | -2,1% | -5,9% | -15,5% | -18,4% |
+| Indonesia | -3,3% | -17,7% | -22,2% | -32,4% |
 
 ### Divisas (id: divisas) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| EUR/USD | -0,0% | +0,5% | -2,1% | -3,1% |
-| GBP/USD | -0,2% | +0,8% | -0,4% | -0,9% |
-| USD/JPY | +0,5% | +0,0% | +0,7% | -0,0% |
-| USD/CHF | +0,3% | -1,0% | +0,6% | +3,5% |
-| AUD/USD | +0,1% | +0,3% | -2,0% | -1,0% |
-| USD/CAD | -0,2% | -1,3% | +0,4% | +1,5% |
-| NZD/USD | +0,1% | +1,4% | -0,8% | -3,0% |
-| EUR/GBP | +0,1% | -0,3% | -1,7% | -2,3% |
-| EUR/JPY | +0,4% | +0,5% | -1,4% | -3,2% |
+| EUR/USD | +0,1% | +0,2% | -1,9% | -3,0% |
+| GBP/USD | +0,5% | +0,9% | +0,2% | -0,4% |
+| USD/JPY | -0,1% | -0,0% | +0,5% | -0,2% |
+| USD/CHF | -0,1% | -0,8% | +0,6% | +3,5% |
+| AUD/USD | +0,5% | +0,4% | -1,4% | -0,4% |
+| USD/CAD | -0,3% | -1,1% | -0,0% | +1,3% |
+| NZD/USD | +0,2% | +1,2% | -0,8% | -2,7% |
+| EUR/GBP | -0,4% | -0,6% | -2,1% | -2,6% |
+| EUR/JPY | +0,0% | +0,3% | -1,4% | -3,2% |
 
 ### Materias primas (id: materias) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| Oro | -0,2% | -0,7% | -4,8% | -7,9% |
-| Plata | -0,8% | -6,0% | -14,0% | -21,2% |
-| Petróleo WTI | +2,8% | +9,1% | +5,2% | +35,6% |
-| Petróleo Brent | +3,6% | +5,0% | +10,9% | +40,6% |
-| Gas natural | -3,9% | -3,2% | +2,4% | -5,5% |
-| Cobre | +0,1% | -2,0% | -1,8% | +4,7% |
-| Trigo | -1,2% | -1,7% | -7,2% | +2,5% |
-| Maíz | -0,9% | -1,2% | -7,7% | +0,1% |
-| Soja | -0,2% | -2,4% | -2,9% | +8,0% |
-| Platino | -0,1% | -3,3% | -9,6% | -15,6% |
+| Oro | -0,6% | -0,6% | -4,7% | -8,5% |
+| Plata | +0,1% | -5,2% | -13,6% | -21,1% |
+| Petróleo WTI | -0,6% | +6,5% | +8,5% | +34,3% |
+| Petróleo Brent | -0,1% | +3,1% | +14,0% | +39,9% |
+| Gas natural | -1,9% | -4,2% | +1,9% | -7,2% |
+| Cobre | +0,2% | -2,6% | -2,7% | +4,8% |
+| Trigo | -0,5% | -2,4% | -9,2% | +1,9% |
+| Maíz | -1,0% | -2,4% | -11,1% | -0,9% |
+| Soja | -0,4% | -2,5% | -4,8% | +7,5% |
+| Platino | +0,5% | -2,9% | -9,2% | -15,1% |
 
 ### Bonos (id: bonos) · IA: efectivo
 
 | Activo | 1d | 5d | 20d | vs media 200 |
 |---|---|---|---|---|
-| Tesoro EE. UU. 20+ años | +0,1% | +2,7% | -1,1% | -4,0% |
-| Tesoro 7-10 años | +0,1% | +1,1% | -0,1% | -2,4% |
-| Tesoro 1-3 años | +0,1% | +0,2% | +0,4% | +0,4% |
-| Ligados a inflación | +0,2% | +1,1% | +0,3% | -1,3% |
-| Corporativos grado inversión | -0,1% | +1,0% | -0,8% | -2,4% |
-| High yield | -0,4% | -0,5% | -1,7% | -1,3% |
-| Deuda emergente | -0,3% | +0,4% | -1,5% | -1,8% |
-| Municipales | -0,1% | +1,3% | -0,2% | -2,3% |
-| Internacional cubierto | -0,2% | +0,3% | +0,4% | -0,7% |
-| Agregado EE. UU. | -0,0% | +0,8% | -0,3% | -1,6% |
+| Tesoro EE. UU. 20+ años | -0,7% | +1,8% | -2,5% | -4,7% |
+| Tesoro 7-10 años | -0,4% | +0,7% | -0,8% | -2,7% |
+| Tesoro 1-3 años | -0,1% | +0,2% | +0,3% | +0,3% |
+| Ligados a inflación | -0,3% | +0,7% | -0,4% | -1,6% |
+| Corporativos grado inversión | -0,5% | +0,3% | -1,7% | -2,9% |
+| High yield | -0,0% | -0,6% | -1,9% | -1,4% |
+| Deuda emergente | -0,5% | +0,0% | -2,4% | -2,3% |
+| Municipales | -0,0% | +1,2% | -0,2% | -2,3% |
+| Internacional cubierto | -0,2% | +0,1% | -0,1% | -0,9% |
+| Agregado EE. UU. | -0,3% | +0,5% | -0,8% | -1,8% |
 
